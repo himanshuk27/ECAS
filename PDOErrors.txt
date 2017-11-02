@@ -1,0 +1,16 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'ksomabpi_ecas'@'localhost' (using password: YES)' in C:\wamp64\www\ECAS\php\connect.php:13
+Stack trace:
+#0 C:\wamp64\www\ECAS\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'ksomabpi_ecas', 'electiveecas')
+#1 C:\wamp64\www\ECAS\php\intialize.php(5): require('C:\\wamp64\\www\\E...')
+#2 C:\wamp64\www\ECAS\login.php(5): include('C:\\wamp64\\www\\E...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'ksomabpi_ecas'@'localhost' (using password: YES)' in C:\wamp64\www\ECAS\php\connect.php:13
+Stack trace:
+#0 C:\wamp64\www\ECAS\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'ksomabpi_ecas', 'electiveecas')
+#1 C:\wamp64\www\ECAS\php\intialize.php(5): require('C:\\wamp64\\www\\E...')
+#2 C:\wamp64\www\ECAS\index.php(5): include('C:\\wamp64\\www\\E...')
+#3 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'ksom'' in C:\wamp64\www\ECAS\php\connect.php:13
+Stack trace:
+#0 C:\wamp64\www\ECAS\php\connect.php(13): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\wamp64\www\ECAS\php\intialize.php(5): require('C:\\wamp64\\www\\E...')
+#2 C:\wamp64\www\ECAS\index.php(5): include('C:\\wamp64\\www\\E...')
+#3 {main}
